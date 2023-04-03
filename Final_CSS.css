@@ -1,0 +1,135 @@
+#header_parent {
+}
+
+#header_left {
+    width: 15%;
+    height: 100px;
+    background-color: black; 
+    float: left;
+}
+
+#header_center {
+    width: 70%;
+    height: 100px;
+    background-color: lightgray;
+    float: left;
+}
+
+#header_right {
+    width: 15%;
+    height: 100px;
+    background-color: black;
+    float: left;
+}
+
+#header_center_title {
+    width:25%;
+    float:left;
+    
+}
+
+#header_center_tabs {
+    width:75%;
+    margin-top: 30px;
+    float:left;
+    text-align: center;
+}
+
+#tabstyle {
+    width:15%;
+    float:left;
+}
+
+#mainbody {
+    background-color: rgb(84, 107, 124);
+    height:1000px;
+}
+
+#tiles_parent {
+    gap: 30px;
+    padding: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#tile {
+    width:33%;
+    float: left;
+    gap: 5px;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    border : solid 1px;
+}
+
+#grid-container {
+    margin-left: 15%;
+    margin-right: 15%;
+    display: grid;
+    grid-template-areas:
+        'left center right';
+    gap: 30px;
+    padding: 30px;
+}
+
+#grid-container > div {
+  margin-left: 25px;
+  margin-right: 25px;
+  text-align: center;
+  color: white;
+  border : solid grey 2px;
+}
+
+#center_body {
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: white;
+}
+
+#grid-container2 {
+    background-color: white;
+    display: grid;
+    grid-template-areas:
+        'left right';
+    gap: 30px;
+    padding: 30px;
+}
+
+#grid-container2 > div {
+  margin-left: 25px;
+  text-align: left;
+  border : solid grey 2px;
+}
+
+#menu_items {
+    width: 30%;
+    text-align: left;
+    margin-left: 15px;
+    color:black;
+    float:left;
+}
+
+#menu_item_link {
+    margin-left: 25px;
+    color:black;
+    font-weight: bold;
+}
+
+#center_right_body {
+    width: 70%;
+    text-align: left;
+    margin-left: 15px;
+    color:black;
+}
+
+#linkstyle {
+    color:blue
+}
+
+#footer {
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 150px;
+    background-color: black;
+    color: white;
+}
